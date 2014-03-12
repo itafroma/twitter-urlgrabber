@@ -1,6 +1,30 @@
 {
+    "name": "itafroma/twitter-urlgrabber",
+    "description": "Example project to demonstrate how to access and parse Twitter's direct messages.",
+    "version": "0.1.0",
+    "type": "project",
+    "keywords": ["twitter", "oauth", "example", "streaming", "guzzle"],
+    "homepage": "http://github.com/itafroma/twitter-urlgrabber",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Trapp",
+            "email": "mark@marktrapp.com",
+            "homepage": "http://marktrapp.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/itafroma/twitter-urlgrabber/issues",
+        "sources": "https://github.com/itafroma/twitter-urlgrabber"
+    },
     "require": {
+        "php": ">=5.4.2",
         "guzzle/guzzle": "~3.8",
         "symfony/yaml": "~2.4"
-    }
+    },
+    "bin" : [
+        "rest-example.php",
+        "streaming-example.php"
+    ]
 }
