@@ -1,0 +1,6 @@
+{
+    "require": {
+        "guzzle/guzzle": "~3.8",
+        "symfony/yaml": "~2.4"
+    }
+}

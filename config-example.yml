@@ -1,0 +1,37 @@
+# These are specific to your application. You can generate them by going to
+# https://apps.twitter.com and creating a new app. Once your app is created, you
+# will find the API key and secret on the API keys tab.
+#
+# Note that in order to access direct messages, you need to change the access
+# level of your app to "Read, write, and direct messages". You can do that from
+# the Permissions tab.
+#
+# Because these are available to users in plain text, you should not distribute
+# your app's api key or secret to other people. Instead, have them go through
+# and create an app themselves.
+#
+# If you later create an server-side app that's able to secure these keys, other
+# people would be able to access your app without having to create their own.
+api_key: 12345678-aBcDeFgHiJkLmNoPqRsTuEXAMPLE
+api_secret: 12345678-aBcDeFgHiJkLmNoPqRsTuEXAMPLE
+
+# These are specific to your user. Twitter will use these to determine which
+# direct messages to return. If you later create a server-side app, you will
+# need to generate these for each specific user using the OAuth authorization
+# flow. More info:
+# - Browser-based: https://dev.twitter.com/docs/auth/3-legged-authorization
+# - Application-based: https://dev.twitter.com/docs/auth/pin-based-authorization
+#
+# For this app, because the application will be specific to a single user, you
+# can generate your own access key and secret by going to
+# https://apps.twitter.com, selecting your app, clicking on the API Keys tab,
+# and pressing the "Generate access tokens" button at the bottom of the page.
+access_token: 12345678-aBcDeFgHiJkLmNoPqRsTuEXAMPLE
+access_token_secret: 12345678-aBcDeFgHiJkLmNoPqRsTuEXAMPLE
+
+# A list of screen names who are authorized to send you links that'll open
+# automatically in your default browser.
+senders:
+    - b$ob
+    - j$oe
+    - ma$ry
